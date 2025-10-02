@@ -1,0 +1,211 @@
+:root {
+    --bg: #0f172a;
+    --card: #111827;
+    --muted: #93c5fd;
+    --accent: #3b82f6;
+    --accent-gradient: linear-gradient(135deg, #2563eb, #7c3aed);
+    --text-light: #e6eef8;
+    --text-muted: #94a3b8;
+    --border: #1e293b;
+    --hover: rgba(59, 130, 246, 0.15);
+    --radius: 10px;
+    --shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Inter", system-ui, Arial;
+    background: var(--bg);
+    color: var(--text-light);
+    line-height: 1.5;
+  }
+  
+  /* App Layout */
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 16px;
+    gap: 16px;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--card);
+    padding: 12px 20px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+  h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Layout */
+  .container {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .left {
+    flex: 1;
+    min-width: 320px;
+  }
+  .right {
+    width: 340px;
+    background: var(--card);
+    padding: 16px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease;
+  }
+  .right:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Controls */
+  .controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  button {
+    background: #1e293b;
+    border: 1px solid var(--border);
+    padding: 8px 14px;
+    border-radius: var(--radius);
+    color: var(--text-light);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  button:hover {
+    background: var(--hover);
+    border-color: var(--accent);
+  }
+  button.primary {
+    background: var(--accent-gradient);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.5);
+  }
+  button.primary:hover {
+    filter: brightness(1.1);
+  }
+  
+  /* Map */
+  .map-wrap {
+    background: #020617;
+    padding: 12px;
+    border-radius: var(--radius);
+    overflow: auto;
+    box-shadow: var(--shadow);
+  }
+  
+  /* Legend */
+  .legend {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .legend div {
+    padding: 6px 10px;
+    border-radius: var(--radius);
+    font-size: 12px;
+    background: #1e293b;
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+  }
+  
+  /* Summary */
+  .summary h3 {
+    margin: 0 0 12px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .seat-list {
+    max-height: 280px;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding-right: 6px;
+  }
+  .seat-list div {
+    padding: 6px 8px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    background: #1e293b;
+    transition: background 0.2s ease;
+  }
+  .seat-list div:hover {
+    background: var(--hover);
+  }
+  
+  /* Find Adjacent */
+  .find-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 12px;
+  }
+  
+  /* Tooltip */
+  .tooltip {
+    position: fixed;
+    pointer-events: none;
+    padding: 8px 12px;
+    background: var(--card);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    color: #fff;
+    font-size: 13px;
+    box-shadow: var(--shadow);
+    z-index: 1000;
+  }
+  
+  /* Small Text */
+  .small {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  
+  /* Responsive */
+  @media (max-width: 900px) {
+    .container {
+      flex-direction: column;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  
+
+  .legend {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+  }
+  .legend div {
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+  
