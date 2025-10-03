@@ -128,22 +128,28 @@ export default function CanvasSeatMap({ venue }: Props){
   },[seats]);
 
   // simulate WebSocket updates: randomly change a seat status every 800ms
-  useEffect(()=>{
-    const interval = setInterval(()=>{
-      if(seats.length===0) return;
-      // pick random seat
-      const idx = Math.floor(Math.random()*seats.length);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (seats.length === 0) return;
+      const idx = Math.floor(Math.random() * seats.length);
       const s = seats[idx];
-      const choices = ['available','sold','reserved','held'];
-      const newStatus = choices[Math.floor(Math.random()*choices.length)];
-      // update seat in array
-      setSeats(prev=>{
-        const copy = prev.slice(); const i = copy.findIndex(x=>x.id===s.id); if(i>=0){ copy[i] = {...copy[i], status:newStatus}; }
+  
+      const choices: Seat['status'][] = ['available', 'sold', 'reserved', 'held'];
+      const newStatus = choices[Math.floor(Math.random() * choices.length)];
+  
+      setSeats(prev => {
+        const copy = prev.slice();
+        const i = copy.findIndex(x => x.id === s.id);
+        if (i >= 0) {
+          copy[i] = { ...copy[i], status: newStatus };
+        }
         return copy;
       });
     }, 800);
-    return ()=>clearInterval(interval);
-  },[seats]);
+  
+    return () => clearInterval(interval);
+  }, [seats]);
+  
 
   // find N adjacent seats in same row
   const findAdjacent = (n:number)=>{
