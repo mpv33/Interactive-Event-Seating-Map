@@ -1,5 +1,5 @@
 {
-  "name": "Grand Theatre",
+  "name": "Grand Theatre (100 seats)",
   "map": {
     "width": 800,
     "height": 600
@@ -15,12 +15,12 @@
               "id": "A1-1",
               "x": 100,
               "y": 80,
-              "price": 500,
-              "priceTier": 2,
+              "price": 600,
+              "priceTier": 3,
               "section": "A",
               "row": "A1",
               "col": 1,
-              "status": "held"
+              "status": "sold"
             },
             {
               "id": "A1-2",
@@ -37,34 +37,34 @@
               "id": "A1-3",
               "x": 140,
               "y": 80,
-              "price": 500,
-              "priceTier": 3,
+              "price": 800,
+              "priceTier": 2,
               "section": "A",
               "row": "A1",
               "col": 3,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A1-4",
               "x": 160,
               "y": 80,
-              "price": 700,
-              "priceTier": 3,
+              "price": 800,
+              "priceTier": 2,
               "section": "A",
               "row": "A1",
               "col": 4,
-              "status": "held"
+              "status": "reserved"
             },
             {
               "id": "A1-5",
               "x": 180,
               "y": 80,
-              "price": 500,
+              "price": 800,
               "priceTier": 2,
               "section": "A",
               "row": "A1",
               "col": 5,
-              "status": "reserved"
+              "status": "held"
             }
           ]
         },
@@ -75,56 +75,56 @@
               "id": "A2-1",
               "x": 100,
               "y": 140,
-              "price": 400,
-              "priceTier": 1,
+              "price": 800,
+              "priceTier": 3,
               "section": "A",
               "row": "A2",
               "col": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "A2-2",
               "x": 120,
               "y": 140,
-              "price": 600,
-              "priceTier": 3,
+              "price": 400,
+              "priceTier": 2,
               "section": "A",
               "row": "A2",
               "col": 2,
-              "status": "held"
+              "status": "sold"
             },
             {
               "id": "A2-3",
               "x": 140,
               "y": 140,
-              "price": 600,
-              "priceTier": 3,
+              "price": 800,
+              "priceTier": 2,
               "section": "A",
               "row": "A2",
               "col": 3,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "A2-4",
               "x": 160,
               "y": 140,
-              "price": 600,
-              "priceTier": 2,
+              "price": 400,
+              "priceTier": 3,
               "section": "A",
               "row": "A2",
               "col": 4,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A2-5",
               "x": 180,
               "y": 140,
-              "price": 400,
-              "priceTier": 1,
+              "price": 700,
+              "priceTier": 3,
               "section": "A",
               "row": "A2",
               "col": 5,
-              "status": "available"
+              "status": "sold"
             }
           ]
         },
@@ -135,52 +135,52 @@
               "id": "A3-1",
               "x": 100,
               "y": 200,
-              "price": 400,
-              "priceTier": 3,
+              "price": 700,
+              "priceTier": 2,
               "section": "A",
               "row": "A3",
               "col": 1,
-              "status": "reserved"
+              "status": "held"
             },
             {
               "id": "A3-2",
               "x": 120,
               "y": 200,
-              "price": 400,
-              "priceTier": 1,
+              "price": 600,
+              "priceTier": 2,
               "section": "A",
               "row": "A3",
               "col": 2,
-              "status": "held"
+              "status": "sold"
             },
             {
               "id": "A3-3",
               "x": 140,
               "y": 200,
-              "price": 400,
+              "price": 700,
               "priceTier": 1,
               "section": "A",
               "row": "A3",
               "col": 3,
-              "status": "reserved"
+              "status": "held"
             },
             {
               "id": "A3-4",
               "x": 160,
               "y": 200,
-              "price": 600,
-              "priceTier": 2,
+              "price": 400,
+              "priceTier": 3,
               "section": "A",
               "row": "A3",
               "col": 4,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "A3-5",
               "x": 180,
               "y": 200,
-              "price": 700,
-              "priceTier": 3,
+              "price": 500,
+              "priceTier": 2,
               "section": "A",
               "row": "A3",
               "col": 5,
@@ -195,30 +195,30 @@
               "id": "A4-1",
               "x": 100,
               "y": 260,
-              "price": 500,
+              "price": 400,
               "priceTier": 2,
               "section": "A",
               "row": "A4",
               "col": 1,
-              "status": "held"
+              "status": "sold"
             },
             {
               "id": "A4-2",
               "x": 120,
               "y": 260,
-              "price": 700,
-              "priceTier": 3,
+              "price": 400,
+              "priceTier": 1,
               "section": "A",
               "row": "A4",
               "col": 2,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "A4-3",
               "x": 140,
               "y": 260,
-              "price": 700,
-              "priceTier": 3,
+              "price": 800,
+              "priceTier": 1,
               "section": "A",
               "row": "A4",
               "col": 3,
@@ -228,8 +228,8 @@
               "id": "A4-4",
               "x": 160,
               "y": 260,
-              "price": 800,
-              "priceTier": 1,
+              "price": 700,
+              "priceTier": 3,
               "section": "A",
               "row": "A4",
               "col": 4,
@@ -239,12 +239,12 @@
               "id": "A4-5",
               "x": 180,
               "y": 260,
-              "price": 800,
-              "priceTier": 3,
+              "price": 400,
+              "priceTier": 2,
               "section": "A",
               "row": "A4",
               "col": 5,
-              "status": "reserved"
+              "status": "held"
             }
           ]
         },
@@ -255,30 +255,30 @@
               "id": "A5-1",
               "x": 100,
               "y": 320,
-              "price": 800,
-              "priceTier": 1,
+              "price": 500,
+              "priceTier": 2,
               "section": "A",
               "row": "A5",
               "col": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "A5-2",
               "x": 120,
               "y": 320,
-              "price": 600,
+              "price": 700,
               "priceTier": 2,
               "section": "A",
               "row": "A5",
               "col": 2,
-              "status": "sold"
+              "status": "held"
             },
             {
               "id": "A5-3",
               "x": 140,
               "y": 320,
-              "price": 800,
-              "priceTier": 1,
+              "price": 400,
+              "priceTier": 2,
               "section": "A",
               "row": "A5",
               "col": 3,
@@ -288,7 +288,7 @@
               "id": "A5-4",
               "x": 160,
               "y": 320,
-              "price": 700,
+              "price": 500,
               "priceTier": 2,
               "section": "A",
               "row": "A5",
@@ -299,12 +299,12 @@
               "id": "A5-5",
               "x": 180,
               "y": 320,
-              "price": 700,
-              "priceTier": 3,
+              "price": 800,
+              "priceTier": 2,
               "section": "A",
               "row": "A5",
               "col": 5,
-              "status": "available"
+              "status": "sold"
             }
           ]
         }
@@ -319,31 +319,31 @@
             {
               "id": "B1-1",
               "x": 180,
-              "y": 100,
+              "y": 80,
               "price": 400,
-              "priceTier": 1,
+              "priceTier": 2,
               "section": "B",
               "row": "B1",
               "col": 1,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B1-2",
               "x": 200,
-              "y": 100,
-              "price": 400,
+              "y": 80,
+              "price": 500,
               "priceTier": 1,
               "section": "B",
               "row": "B1",
               "col": 2,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B1-3",
               "x": 220,
-              "y": 100,
-              "price": 600,
-              "priceTier": 2,
+              "y": 80,
+              "price": 800,
+              "priceTier": 1,
               "section": "B",
               "row": "B1",
               "col": 3,
@@ -352,24 +352,24 @@
             {
               "id": "B1-4",
               "x": 240,
-              "y": 100,
-              "price": 400,
+              "y": 80,
+              "price": 700,
               "priceTier": 1,
               "section": "B",
               "row": "B1",
               "col": 4,
-              "status": "reserved"
+              "status": "available"
             },
             {
               "id": "B1-5",
               "x": 260,
-              "y": 100,
-              "price": 400,
+              "y": 80,
+              "price": 600,
               "priceTier": 3,
               "section": "B",
               "row": "B1",
               "col": 5,
-              "status": "held"
+              "status": "sold"
             }
           ]
         },
@@ -379,53 +379,53 @@
             {
               "id": "B2-1",
               "x": 180,
-              "y": 160,
-              "price": 800,
-              "priceTier": 1,
+              "y": 140,
+              "price": 600,
+              "priceTier": 3,
               "section": "B",
               "row": "B2",
               "col": 1,
-              "status": "held"
+              "status": "reserved"
             },
             {
               "id": "B2-2",
               "x": 200,
-              "y": 160,
+              "y": 140,
               "price": 500,
-              "priceTier": 3,
+              "priceTier": 1,
               "section": "B",
               "row": "B2",
               "col": 2,
-              "status": "reserved"
+              "status": "held"
             },
             {
               "id": "B2-3",
               "x": 220,
-              "y": 160,
-              "price": 700,
+              "y": 140,
+              "price": 600,
               "priceTier": 3,
               "section": "B",
               "row": "B2",
               "col": 3,
-              "status": "sold"
+              "status": "held"
             },
             {
               "id": "B2-4",
               "x": 240,
-              "y": 160,
-              "price": 400,
-              "priceTier": 3,
+              "y": 140,
+              "price": 600,
+              "priceTier": 2,
               "section": "B",
               "row": "B2",
               "col": 4,
-              "status": "sold"
+              "status": "held"
             },
             {
               "id": "B2-5",
               "x": 260,
-              "y": 160,
-              "price": 800,
-              "priceTier": 1,
+              "y": 140,
+              "price": 400,
+              "priceTier": 2,
               "section": "B",
               "row": "B2",
               "col": 5,
@@ -439,57 +439,57 @@
             {
               "id": "B3-1",
               "x": 180,
-              "y": 220,
+              "y": 200,
               "price": 600,
               "priceTier": 3,
               "section": "B",
               "row": "B3",
               "col": 1,
-              "status": "reserved"
+              "status": "sold"
             },
             {
               "id": "B3-2",
               "x": 200,
-              "y": 220,
+              "y": 200,
               "price": 600,
-              "priceTier": 3,
+              "priceTier": 2,
               "section": "B",
               "row": "B3",
               "col": 2,
-              "status": "reserved"
+              "status": "sold"
             },
             {
               "id": "B3-3",
               "x": 220,
-              "y": 220,
-              "price": 500,
-              "priceTier": 3,
+              "y": 200,
+              "price": 700,
+              "priceTier": 1,
               "section": "B",
               "row": "B3",
               "col": 3,
-              "status": "reserved"
+              "status": "held"
             },
             {
               "id": "B3-4",
               "x": 240,
-              "y": 220,
-              "price": 400,
-              "priceTier": 2,
+              "y": 200,
+              "price": 500,
+              "priceTier": 3,
               "section": "B",
               "row": "B3",
               "col": 4,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "B3-5",
               "x": 260,
-              "y": 220,
-              "price": 500,
+              "y": 200,
+              "price": 600,
               "priceTier": 2,
               "section": "B",
               "row": "B3",
               "col": 5,
-              "status": "reserved"
+              "status": "available"
             }
           ]
         },
@@ -499,29 +499,29 @@
             {
               "id": "B4-1",
               "x": 180,
-              "y": 280,
+              "y": 260,
               "price": 800,
               "priceTier": 2,
               "section": "B",
               "row": "B4",
               "col": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "B4-2",
               "x": 200,
-              "y": 280,
-              "price": 800,
+              "y": 260,
+              "price": 600,
               "priceTier": 1,
               "section": "B",
               "row": "B4",
               "col": 2,
-              "status": "sold"
+              "status": "held"
             },
             {
               "id": "B4-3",
               "x": 220,
-              "y": 280,
+              "y": 260,
               "price": 800,
               "priceTier": 3,
               "section": "B",
@@ -532,24 +532,24 @@
             {
               "id": "B4-4",
               "x": 240,
-              "y": 280,
-              "price": 700,
+              "y": 260,
+              "price": 400,
               "priceTier": 1,
               "section": "B",
               "row": "B4",
               "col": 4,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "B4-5",
               "x": 260,
-              "y": 280,
-              "price": 800,
+              "y": 260,
+              "price": 400,
               "priceTier": 3,
               "section": "B",
               "row": "B4",
               "col": 5,
-              "status": "available"
+              "status": "held"
             }
           ]
         },
@@ -559,31 +559,31 @@
             {
               "id": "B5-1",
               "x": 180,
-              "y": 340,
-              "price": 700,
+              "y": 320,
+              "price": 400,
               "priceTier": 1,
               "section": "B",
               "row": "B5",
               "col": 1,
-              "status": "reserved"
+              "status": "held"
             },
             {
               "id": "B5-2",
               "x": 200,
-              "y": 340,
-              "price": 700,
-              "priceTier": 2,
+              "y": 320,
+              "price": 800,
+              "priceTier": 1,
               "section": "B",
               "row": "B5",
               "col": 2,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "B5-3",
               "x": 220,
-              "y": 340,
-              "price": 500,
-              "priceTier": 2,
+              "y": 320,
+              "price": 700,
+              "priceTier": 3,
               "section": "B",
               "row": "B5",
               "col": 3,
@@ -592,9 +592,9 @@
             {
               "id": "B5-4",
               "x": 240,
-              "y": 340,
-              "price": 800,
-              "priceTier": 2,
+              "y": 320,
+              "price": 600,
+              "priceTier": 1,
               "section": "B",
               "row": "B5",
               "col": 4,
@@ -603,13 +603,13 @@
             {
               "id": "B5-5",
               "x": 260,
-              "y": 340,
+              "y": 320,
               "price": 500,
               "priceTier": 2,
               "section": "B",
               "row": "B5",
               "col": 5,
-              "status": "sold"
+              "status": "held"
             }
           ]
         }
@@ -624,20 +624,20 @@
             {
               "id": "C1-1",
               "x": 260,
-              "y": 120,
+              "y": 80,
               "price": 700,
-              "priceTier": 3,
+              "priceTier": 2,
               "section": "C",
               "row": "C1",
               "col": 1,
-              "status": "sold"
+              "status": "held"
             },
             {
               "id": "C1-2",
               "x": 280,
-              "y": 120,
-              "price": 400,
-              "priceTier": 2,
+              "y": 80,
+              "price": 500,
+              "priceTier": 1,
               "section": "C",
               "row": "C1",
               "col": 2,
@@ -646,35 +646,35 @@
             {
               "id": "C1-3",
               "x": 300,
-              "y": 120,
-              "price": 700,
-              "priceTier": 2,
+              "y": 80,
+              "price": 600,
+              "priceTier": 3,
               "section": "C",
               "row": "C1",
               "col": 3,
-              "status": "reserved"
+              "status": "sold"
             },
             {
               "id": "C1-4",
               "x": 320,
-              "y": 120,
-              "price": 400,
-              "priceTier": 2,
+              "y": 80,
+              "price": 500,
+              "priceTier": 3,
               "section": "C",
               "row": "C1",
               "col": 4,
-              "status": "sold"
+              "status": "available"
             },
             {
               "id": "C1-5",
               "x": 340,
-              "y": 120,
+              "y": 80,
               "price": 400,
-              "priceTier": 1,
+              "priceTier": 3,
               "section": "C",
               "row": "C1",
               "col": 5,
-              "status": "sold"
+              "status": "available"
             }
           ]
         },
@@ -684,57 +684,57 @@
             {
               "id": "C2-1",
               "x": 260,
-              "y": 180,
-              "price": 800,
-              "priceTier": 2,
+              "y": 140,
+              "price": 600,
+              "priceTier": 1,
               "section": "C",
               "row": "C2",
               "col": 1,
-              "status": "held"
+              "status": "sold"
             },
             {
               "id": "C2-2",
               "x": 280,
-              "y": 180,
-              "price": 400,
+              "y": 140,
+              "price": 500,
               "priceTier": 3,
               "section": "C",
               "row": "C2",
               "col": 2,
-              "status": "sold"
+              "status": "held"
             },
             {
               "id": "C2-3",
               "x": 300,
-              "y": 180,
-              "price": 400,
-              "priceTier": 1,
+              "y": 140,
+              "price": 600,
+              "priceTier": 2,
               "section": "C",
               "row": "C2",
               "col": 3,
-              "status": "reserved"
+              "status": "held"
             },
             {
               "id": "C2-4",
               "x": 320,
-              "y": 180,
-              "price": 800,
-              "priceTier": 2,
+              "y": 140,
+              "price": 500,
+              "priceTier": 3,
               "section": "C",
               "row": "C2",
               "col": 4,
-              "status": "held"
+              "status": "sold"
             },
             {
               "id": "C2-5",
               "x": 340,
-              "y": 180,
-              "price": 600,
+              "y": 140,
+              "price": 800,
               "priceTier": 3,
               "section": "C",
               "row": "C2",
               "col": 5,
-              "status": "reserved"
+              "status": "sold"
             }
           ]
         },
@@ -744,30 +744,30 @@
             {
               "id": "C3-1",
               "x": 260,
-              "y": 240,
-              "price": 600,
-              "priceTier": 3,
+              "y": 200,
+              "price": 500,
+              "priceTier": 2,
               "section": "C",
               "row": "C3",
               "col": 1,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "C3-2",
               "x": 280,
-              "y": 240,
-              "price": 400,
+              "y": 200,
+              "price": 700,
               "priceTier": 2,
               "section": "C",
               "row": "C3",
               "col": 2,
-              "status": "sold"
+              "status": "reserved"
             },
             {
               "id": "C3-3",
               "x": 300,
-              "y": 240,
-              "price": 700,
+              "y": 200,
+              "price": 500,
               "priceTier": 1,
               "section": "C",
               "row": "C3",
@@ -777,24 +777,24 @@
             {
               "id": "C3-4",
               "x": 320,
-              "y": 240,
-              "price": 700,
+              "y": 200,
+              "price": 800,
               "priceTier": 3,
               "section": "C",
               "row": "C3",
               "col": 4,
-              "status": "sold"
+              "status": "held"
             },
             {
               "id": "C3-5",
               "x": 340,
-              "y": 240,
-              "price": 400,
+              "y": 200,
+              "price": 700,
               "priceTier": 3,
               "section": "C",
               "row": "C3",
               "col": 5,
-              "status": "held"
+              "status": "reserved"
             }
           ]
         },
@@ -804,31 +804,31 @@
             {
               "id": "C4-1",
               "x": 260,
-              "y": 300,
-              "price": 800,
-              "priceTier": 3,
+              "y": 260,
+              "price": 400,
+              "priceTier": 1,
               "section": "C",
               "row": "C4",
               "col": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "C4-2",
               "x": 280,
-              "y": 300,
-              "price": 600,
-              "priceTier": 1,
+              "y": 260,
+              "price": 700,
+              "priceTier": 3,
               "section": "C",
               "row": "C4",
               "col": 2,
-              "status": "reserved"
+              "status": "held"
             },
             {
               "id": "C4-3",
               "x": 300,
-              "y": 300,
-              "price": 800,
-              "priceTier": 1,
+              "y": 260,
+              "price": 500,
+              "priceTier": 2,
               "section": "C",
               "row": "C4",
               "col": 3,
@@ -837,9 +837,9 @@
             {
               "id": "C4-4",
               "x": 320,
-              "y": 300,
-              "price": 800,
-              "priceTier": 3,
+              "y": 260,
+              "price": 700,
+              "priceTier": 1,
               "section": "C",
               "row": "C4",
               "col": 4,
@@ -848,13 +848,13 @@
             {
               "id": "C4-5",
               "x": 340,
-              "y": 300,
-              "price": 500,
+              "y": 260,
+              "price": 800,
               "priceTier": 1,
               "section": "C",
               "row": "C4",
               "col": 5,
-              "status": "held"
+              "status": "sold"
             }
           ]
         },
@@ -864,20 +864,20 @@
             {
               "id": "C5-1",
               "x": 260,
-              "y": 360,
-              "price": 800,
+              "y": 320,
+              "price": 700,
               "priceTier": 2,
               "section": "C",
               "row": "C5",
               "col": 1,
-              "status": "available"
+              "status": "sold"
             },
             {
               "id": "C5-2",
               "x": 280,
-              "y": 360,
-              "price": 600,
-              "priceTier": 3,
+              "y": 320,
+              "price": 800,
+              "priceTier": 1,
               "section": "C",
               "row": "C5",
               "col": 2,
@@ -886,35 +886,35 @@
             {
               "id": "C5-3",
               "x": 300,
-              "y": 360,
-              "price": 500,
+              "y": 320,
+              "price": 600,
               "priceTier": 1,
               "section": "C",
               "row": "C5",
               "col": 3,
-              "status": "held"
+              "status": "sold"
             },
             {
               "id": "C5-4",
               "x": 320,
-              "y": 360,
-              "price": 700,
-              "priceTier": 1,
-              "section": "C",
-              "row": "C5",
-              "col": 4,
-              "status": "held"
-            },
-            {
-              "id": "C5-5",
-              "x": 340,
-              "y": 360,
+              "y": 320,
               "price": 600,
               "priceTier": 3,
               "section": "C",
               "row": "C5",
+              "col": 4,
+              "status": "sold"
+            },
+            {
+              "id": "C5-5",
+              "x": 340,
+              "y": 320,
+              "price": 600,
+              "priceTier": 1,
+              "section": "C",
+              "row": "C5",
               "col": 5,
-              "status": "available"
+              "status": "held"
             }
           ]
         }
@@ -929,8 +929,8 @@
             {
               "id": "D1-1",
               "x": 340,
-              "y": 140,
-              "price": 500,
+              "y": 80,
+              "price": 600,
               "priceTier": 3,
               "section": "D",
               "row": "D1",
@@ -940,31 +940,31 @@
             {
               "id": "D1-2",
               "x": 360,
-              "y": 140,
-              "price": 400,
-              "priceTier": 1,
+              "y": 80,
+              "price": 600,
+              "priceTier": 3,
               "section": "D",
               "row": "D1",
               "col": 2,
-              "status": "held"
+              "status": "sold"
             },
             {
               "id": "D1-3",
               "x": 380,
-              "y": 140,
-              "price": 400,
-              "priceTier": 3,
+              "y": 80,
+              "price": 800,
+              "priceTier": 1,
               "section": "D",
               "row": "D1",
               "col": 3,
-              "status": "sold"
+              "status": "held"
             },
             {
               "id": "D1-4",
               "x": 400,
-              "y": 140,
-              "price": 800,
-              "priceTier": 3,
+              "y": 80,
+              "price": 700,
+              "priceTier": 1,
               "section": "D",
               "row": "D1",
               "col": 4,
@@ -973,13 +973,13 @@
             {
               "id": "D1-5",
               "x": 420,
-              "y": 140,
-              "price": 700,
-              "priceTier": 1,
+              "y": 80,
+              "price": 800,
+              "priceTier": 2,
               "section": "D",
               "row": "D1",
               "col": 5,
-              "status": "available"
+              "status": "held"
             }
           ]
         },
@@ -989,53 +989,53 @@
             {
               "id": "D2-1",
               "x": 340,
-              "y": 200,
-              "price": 500,
-              "priceTier": 1,
+              "y": 140,
+              "price": 400,
+              "priceTier": 3,
               "section": "D",
               "row": "D2",
               "col": 1,
-              "status": "held"
+              "status": "reserved"
             },
             {
               "id": "D2-2",
               "x": 360,
-              "y": 200,
-              "price": 700,
+              "y": 140,
+              "price": 600,
               "priceTier": 3,
               "section": "D",
               "row": "D2",
               "col": 2,
-              "status": "reserved"
+              "status": "sold"
             },
             {
               "id": "D2-3",
               "x": 380,
-              "y": 200,
-              "price": 400,
-              "priceTier": 1,
-              "section": "D",
-              "row": "D2",
-              "col": 3,
-              "status": "sold"
-            },
-            {
-              "id": "D2-4",
-              "x": 400,
-              "y": 200,
+              "y": 140,
               "price": 500,
               "priceTier": 2,
               "section": "D",
               "row": "D2",
-              "col": 4,
+              "col": 3,
               "status": "held"
+            },
+            {
+              "id": "D2-4",
+              "x": 400,
+              "y": 140,
+              "price": 700,
+              "priceTier": 2,
+              "section": "D",
+              "row": "D2",
+              "col": 4,
+              "status": "sold"
             },
             {
               "id": "D2-5",
               "x": 420,
-              "y": 200,
-              "price": 700,
-              "priceTier": 1,
+              "y": 140,
+              "price": 800,
+              "priceTier": 2,
               "section": "D",
               "row": "D2",
               "col": 5,
@@ -1049,42 +1049,42 @@
             {
               "id": "D3-1",
               "x": 340,
-              "y": 260,
-              "price": 500,
+              "y": 200,
+              "price": 600,
               "priceTier": 1,
               "section": "D",
               "row": "D3",
               "col": 1,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "D3-2",
               "x": 360,
-              "y": 260,
-              "price": 800,
+              "y": 200,
+              "price": 600,
               "priceTier": 2,
               "section": "D",
               "row": "D3",
               "col": 2,
-              "status": "available"
+              "status": "reserved"
             },
             {
               "id": "D3-3",
               "x": 380,
-              "y": 260,
-              "price": 500,
-              "priceTier": 1,
+              "y": 200,
+              "price": 800,
+              "priceTier": 3,
               "section": "D",
               "row": "D3",
               "col": 3,
-              "status": "held"
+              "status": "sold"
             },
             {
               "id": "D3-4",
               "x": 400,
-              "y": 260,
-              "price": 700,
-              "priceTier": 2,
+              "y": 200,
+              "price": 600,
+              "priceTier": 3,
               "section": "D",
               "row": "D3",
               "col": 4,
@@ -1093,13 +1093,13 @@
             {
               "id": "D3-5",
               "x": 420,
-              "y": 260,
+              "y": 200,
               "price": 800,
-              "priceTier": 2,
+              "priceTier": 1,
               "section": "D",
               "row": "D3",
               "col": 5,
-              "status": "held"
+              "status": "sold"
             }
           ]
         },
@@ -1109,20 +1109,20 @@
             {
               "id": "D4-1",
               "x": 340,
-              "y": 320,
+              "y": 260,
               "price": 500,
               "priceTier": 3,
               "section": "D",
               "row": "D4",
               "col": 1,
-              "status": "available"
+              "status": "held"
             },
             {
               "id": "D4-2",
               "x": 360,
-              "y": 320,
-              "price": 400,
-              "priceTier": 1,
+              "y": 260,
+              "price": 700,
+              "priceTier": 3,
               "section": "D",
               "row": "D4",
               "col": 2,
@@ -1131,9 +1131,9 @@
             {
               "id": "D4-3",
               "x": 380,
-              "y": 320,
+              "y": 260,
               "price": 700,
-              "priceTier": 2,
+              "priceTier": 3,
               "section": "D",
               "row": "D4",
               "col": 3,
@@ -1142,24 +1142,24 @@
             {
               "id": "D4-4",
               "x": 400,
-              "y": 320,
+              "y": 260,
               "price": 700,
-              "priceTier": 2,
+              "priceTier": 1,
               "section": "D",
               "row": "D4",
               "col": 4,
-              "status": "sold"
+              "status": "reserved"
             },
             {
               "id": "D4-5",
               "x": 420,
-              "y": 320,
-              "price": 500,
+              "y": 260,
+              "price": 400,
               "priceTier": 3,
               "section": "D",
               "row": "D4",
               "col": 5,
-              "status": "available"
+              "status": "reserved"
             }
           ]
         },
@@ -1169,9 +1169,9 @@
             {
               "id": "D5-1",
               "x": 340,
-              "y": 380,
+              "y": 320,
               "price": 400,
-              "priceTier": 2,
+              "priceTier": 3,
               "section": "D",
               "row": "D5",
               "col": 1,
@@ -1180,42 +1180,42 @@
             {
               "id": "D5-2",
               "x": 360,
-              "y": 380,
-              "price": 500,
-              "priceTier": 3,
+              "y": 320,
+              "price": 600,
+              "priceTier": 1,
               "section": "D",
               "row": "D5",
               "col": 2,
-              "status": "held"
+              "status": "available"
             },
             {
               "id": "D5-3",
               "x": 380,
-              "y": 380,
-              "price": 500,
-              "priceTier": 2,
-              "section": "D",
-              "row": "D5",
-              "col": 3,
-              "status": "held"
-            },
-            {
-              "id": "D5-4",
-              "x": 400,
-              "y": 380,
+              "y": 320,
               "price": 700,
               "priceTier": 3,
               "section": "D",
               "row": "D5",
-              "col": 4,
+              "col": 3,
               "status": "reserved"
+            },
+            {
+              "id": "D5-4",
+              "x": 400,
+              "y": 320,
+              "price": 800,
+              "priceTier": 3,
+              "section": "D",
+              "row": "D5",
+              "col": 4,
+              "status": "sold"
             },
             {
               "id": "D5-5",
               "x": 420,
-              "y": 380,
-              "price": 800,
-              "priceTier": 1,
+              "y": 320,
+              "price": 500,
+              "priceTier": 3,
               "section": "D",
               "row": "D5",
               "col": 5,

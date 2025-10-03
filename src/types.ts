@@ -1,18 +1,28 @@
-    export type Seat = {
-      id: string;
-      section: string;
-      row: number;
-      col: number;
-      x: number;
-      y: number;
-      price: number;
-      priceTier: number;
-      status: 'available'|'sold'|'reserved'|'held';
-    };
+export type SeatStatus = 'available' | 'sold' | 'reserved' | 'held';
 
-export type Venue = {
+export interface Seat {
+  id: string;
+  x: number;
+  y: number;
+  price: number;
+  priceTier: number;
+  section: string;
+  row: string | number;
+  col: number;
+  status: SeatStatus;
+}
+
+export interface Venue {
   venueId: string;
   name: string;
-  map: { width:number; height:number };
-  sections: Array<{ id:string; label:string; transform:any; rows: Array<{ index:number; seats: Seat[] }> }>;
-};
+  map: { width: number; height: number };
+  sections: {
+    id: string;
+    label: string;
+    transform: { x: number; y: number; scale: number };
+    rows: {
+      index: number;
+      seats: Seat[];
+    }[];
+  }[];
+}
