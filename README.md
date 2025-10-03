@@ -1,8 +1,4 @@
-Perfect 👌 — here’s an updated **`README.md`** for your repo, including the **preview screenshot** from your `public/` folder and the points you wanted:
 
----
-
-````markdown
 # 🎟️ Event Seating — Full Frontend
 
 This project implements the **interactive seating map** task for frontend machine coding.  
